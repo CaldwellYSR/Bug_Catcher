@@ -1,7 +1,7 @@
 "use strict";
 
 module.exports = function(game) { // eslint-disable-line no-unused-vars
-	var file = require("../data/tilemap2.json");
+	var file = require("../data/tilemap3.json");
 	var importer = require("splat-ecs/lib/import-from-tiled.js");
 	importer(file, game.entities);
 	var player = 1;
